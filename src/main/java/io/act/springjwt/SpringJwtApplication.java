@@ -19,7 +19,6 @@ public class SpringJwtApplication {
 
 	@PostConstruct
 	public void initUsers(){
-
 		List<User> users = Stream.of(
 				new User(101, "user", "user", "user@email.com"),
 				new User(102, "user1", "user1", "user1@email.com"),
